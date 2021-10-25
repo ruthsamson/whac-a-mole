@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(/assets/images/arcade.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+}
+
+.score-text {
+    background-color: black;
+    color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#score, #time-left {
+    color: yellow;
+}
+
+.timer-text {
+    background-color: black;
+    color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+
+.start-game #start {
+    background-color: black;
+    color: chartreuse;
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start:hover {
+    color: purple;
+}
+
+.grid {
+     width: 607px;
+     height: 607px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     background-color: teal;
+     cursor: pointer;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.mole {
+    background-image: url(/assets/images/mole.jpeg);
+    background-size: cover;
+}
