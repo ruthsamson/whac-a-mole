@@ -1,6 +1,6 @@
 # `README.md` - Whac-A-Mole Game
 
-## ✋ About the App
+## 👾 About the App
 
 A site where you can play the game whac-a-mole
 
